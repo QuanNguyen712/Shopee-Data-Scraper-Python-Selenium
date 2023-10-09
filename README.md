@@ -3,7 +3,9 @@
 **Motivation:**
 
 One day you decide to launch a Shopee vendor selling intimate washing gel for men and come up with different questions such as: How many vendors are there to compete? What are they currently offering? How are the sales? How my pricing should be to stand out among the crowd, etc.
-It would be a nightmare scanning and scrolling across items and pages to manually check out the existing products. Here Python Selenium come to the recuse!
+It would be a nightmare scanning and scrolling across items and pages to manually check out the existing products.
+
+Here Python Selenium come to the recuse!
 
 **Prerequisite:**
 
