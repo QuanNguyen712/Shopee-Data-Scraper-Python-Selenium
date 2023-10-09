@@ -59,5 +59,5 @@ for thread in get_link_thread_list:
 # ============================================================================  
     # OUTPUT THE RESULT
 # Change the desired directory into the .to_excel() 
-pd.DataFrame({'Total Link': link_list}).to_excel(r"C:\Users\Admin\Desktop\TotalLinkNew.xlsx", sheet_name='Data', index=False)
+pd.DataFrame({'Total Link': link_list}).to_excel(r"C:\Users\Admin\Desktop\TotalLink.xlsx", sheet_name='Data', index=False)
 print('{} product links were found'.format(len(link_list)))
