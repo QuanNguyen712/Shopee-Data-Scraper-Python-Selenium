@@ -17,5 +17,3 @@ def sp_login(driver):
 
         # Login !
     WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.XPATH, '//*[@id="main"]/div/div[2]/div/div/div/div[2]/form/div/div[2]/div[3]/div[1]/input'))).send_keys(Keys.ENTER)
-
-
