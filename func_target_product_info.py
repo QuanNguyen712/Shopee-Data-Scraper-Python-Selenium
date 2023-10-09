@@ -62,11 +62,3 @@ def sp_scraper(driver):
         output_list.append('No Voucher')
     
     return output_list
-   
-
-    
-
-
-
-
-
