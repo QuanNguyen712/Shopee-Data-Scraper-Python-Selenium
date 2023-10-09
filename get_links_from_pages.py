@@ -43,8 +43,8 @@ def get_link_Worker(get_link_driver):
 # Open simultaneously working drivers (threads) (4 is recommended)
 get_link_drivers = [webdriver.Chrome() for driver in range(4)]
 
-# Each driver (thread) execute the defined function to access the page link and get all product links...
-# ... once the task is done, it would get the first-standing page index in the 'page_queue' and repeat.
+# Each driver (thread) execute the targeted function to access the page link and get all product links,...
+# ... once the task is done, it would get the first-standing page index at that time in the 'page_queue' and repeat.
 for driver in get_link_drivers:
     t = threading.Thread(target=get_link_Worker, args=(driver,))
     get_link_thread_list.append(t)
