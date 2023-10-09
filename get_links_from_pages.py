@@ -18,7 +18,7 @@ page_queue = Queue() # Queue store page index from 0 to 16
     # FUNCTION ACCESSES THE PRODUCT PAGE AND GET ALL PRODUCT LINKS
     
     # [HOW ?] Drivers (threads) sequentially get the page index from 'page_queue' ... 
-    # ... to get all the product links until passing through all the pages, which means until the page_queue is empty
+    # ... to get all the product links until passing through all the pages, which means until the 'page_queue' is empty
     
 def get_link_Worker(get_link_driver): 
     while page_queue.qsize() != 0:
@@ -51,8 +51,8 @@ for driver in get_link_drivers:
     t.start()
 
 # Join all the working threads
-# This step make OUTPUT THE RESULT step to wait until all product links are gotten ...
-# ... without this step, the OUTPUT THE RESULT would be executed before all product links are stored into the 'link_list' 
+# This step make '# OUTPUT THE RESULT' step to wait until all product links are gotten ...
+# ... without this step, the '# OUTPUT THE RESULT' lines of code would be executed before all product links are stored into the 'link_list' 
 for thread in get_link_thread_list:
     thread.join()
     
