@@ -16,7 +16,7 @@ Prepare at least 1 Shopee account and fill the ‘User Name’ and ‘Password�
 
 For the keyword ‘dung dịch vệ sinh nam’ Shopee returns 17 pages with 60 (+/- 1) products per page. The code’s operation is broken-down into steps/ sub-steps as follow:
 
-*I.	Collect all product links in 17 pages and store them into a list- ‘link_list’:*
+[*I.	Collect all product links in 17 pages and store them into a list- ‘link_list’:*](https://github.com/QuanNguyen712/Shopee-Data-Scraper-Python-Selenium/blob/main/get_links_from_pages.py)
 1.	Open a browser(s) (Chrome driver).
 2.	Access the first product page link via the opened browser(s).
 3.	Login to Shopee (Shopee requires).
