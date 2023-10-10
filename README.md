@@ -8,9 +8,11 @@ It would be a nightmare scanning and scrolling across items and pages to manuall
 
 Here Python Selenium come to the recuse ! which returns the precise, detailed [output](https://github.com/QuanNguyen712/Shopee-Data-Scraper-Python-Selenium/raw/main/SampleOutput.xlsx) that faciliates further analysis. 
 
-**Prerequisite:**
+**Prerequisite & Note:**
 
-Prepare at least 1 Shopee account and fill the ‘User Name’ and ‘Password’ into the ‘func_login’ before running the main code as Shopee requires a login in several phases along the scrapping. Multiple back-up accounts are recommended due to the anti- bot system of the platform.
+1. Prepare at least 1 Shopee account and fill the ‘User Name’ and ‘Password’ into the [‘func_login’](https://github.com/QuanNguyen712/Shopee-Data-Scraper-Python-Selenium/blob/main/func_login.py) before running the main code as Shopee requires a login in several phases along the scrapping. Multiple back-up accounts are recommended due to the anti- bot system of the platform.
+2. Regarding the time efficiency, MultiThread is applied to simultaneously implement the crawling process; otherwise, it takes hours (even a day) to scrape all 1020 items' (not to mention the product variation) information of the targeted keyword. Therefore, basic understanding of Threading is recommended (focusing on how the join() method works and its impact on the execution of the main thread).
+3. Queue data structure is also a crucial angle associating with MultiThread, which guarantees the consecutive flow of the process as it prevents threads from getting repeated links while scraping.
 
 **How does it work?**
 
