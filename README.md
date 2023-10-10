@@ -24,7 +24,7 @@ For the keyword ‘dung dịch vệ sinh nam’ Shopee returns 17 pages with 60 
 5.	Get all product links on the current page and append to the ‘link_list’.
 6.	Repeat step I.2 with the next product page link until all product links in the 17 pages are stored into the ‘link_list’.
 
-*II.	From each link in the ‘link_list’ returned from step I, collect product information and store them into a DataFrame- ‘out_df’:*
+[*II.	From each link in the ‘link_list’ returned from step I, collect product information and store them into a DataFrame- ‘out_df’:*](https://github.com/QuanNguyen712/Shopee-Data-Scraper-Python-Selenium/blob/main/get_product_info.py)
 1.	Open a browser(s) (Chrome driver).
 2.	Access the first product link via the opened browser(s).
 3.	Login to Shopee (Shopee requires).
