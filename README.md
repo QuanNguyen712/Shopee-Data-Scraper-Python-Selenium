@@ -6,7 +6,7 @@ One day you decide to launch a Shopee vendor selling intimate washing for men an
 
 It would be a nightmare scanning and scrolling across items and pages to manually check out the existing products.
 
-Here Python Selenium come to the recuse! which returns e precise/ detailed [output](https://github.com/QuanNguyen712/Shopee-Data-Scraper-Python-Selenium/raw/main/SampleOutput.xlsx) that faciliates further analysis. 
+Here Python Selenium come to the recuse ! which returns the precise, detailed [output](https://github.com/QuanNguyen712/Shopee-Data-Scraper-Python-Selenium/raw/main/SampleOutput.xlsx) that faciliates further analysis. 
 
 **Prerequisite:**
 
