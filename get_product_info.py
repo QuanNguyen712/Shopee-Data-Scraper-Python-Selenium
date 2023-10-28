@@ -1,6 +1,6 @@
 from selenium import webdriver
 from func_login import sp_login
-from Shopee_item_scraper import sp_scraper
+from func_target_product_info import sp_scraper
 from selenium.webdriver.common.by import By
 from queue import Queue
 from time import sleep
